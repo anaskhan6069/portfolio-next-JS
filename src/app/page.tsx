@@ -9,7 +9,7 @@ import Contact from "../Components/Contact"
 import Footer from "../Components/Footer"
 
 
-const Page = () => {
+const page = () => {
     return (
         <>
           <main>
@@ -25,4 +25,4 @@ const Page = () => {
     )
 }
 
-export default Page;
+export default page;
