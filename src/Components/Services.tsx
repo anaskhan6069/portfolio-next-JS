@@ -7,7 +7,7 @@ import { faCode, faFilm } from '@fortawesome/free-solid-svg-icons'
 const Services = () => {
   return (
     <section id="services" className="py-16 lg:px-[115px] md:px-[90px] sm:px-[90px] px-[20px] min-h-screen bg-primaryColor text-white">
-      <h1 className="lg:text-[50px] md:text-[45px] text-[38px] font-bold md:mb-12 mb-8 text-center lg:text-left lg:mt-12">
+      <h1 className="lg:text-[50px] md:text-[45px] text-[38px] font-bold md:mb-12 mb-8 text-center lg:text-left lg:mt-12 mt-5">
         My <span className="text-myCustomColor">Services</span>
       </h1>
 

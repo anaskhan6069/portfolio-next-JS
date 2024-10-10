@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faTwitter, faInstagram, faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 const Home = () => {
-    return (
+    return (    
         <>
             <section className="flex justify-center items-center bg-[#000021] text-white lg:px-[115px] md:px-[90px] sm:px-[90px] px-[20px]  min-h-screen" id="home">
                 <div className="flex flex-col-reverse  lg:flex-row items-center justify-center lg:pt-16 lg:space-y-0 lg:space-x-8 pb-10">
@@ -37,14 +37,14 @@ const Home = () => {
                         </div>
 
                         <div className="space-x-4 space-y-2 ">
-                            <a href="#" className="inline-block px-7 py-2 bg-myCustomColor rounded-full text-primaryColor font-semibold text-xs md:text-lg transition duration-300 shadow-[0_0_6px_var(--myCustomColor)] hover:shadow-[0_0_12px_var(--myCustomColor)]" >Download CV</a>
+                            <a href="#" className="inline-block px-7 py-2 bg-myCustomColor rounded-full text-primaryColor font-semibold text-[13px] md:text-lg transition duration-300 shadow-[0_0_6px_var(--myCustomColor)] hover:shadow-[0_0_12px_var(--myCustomColor)]" >Download CV</a>
 
-                            <a href="https://github.com/anaskhan6069" target="_blank" className="inline-block px-7 py-2 bg-myCustomColor rounded-full text-primaryColor font-semibold text-xs md:text-lg transition duration-300 shadow-[0_0_6px_var(--myCustomColor)] hover:shadow-[0_0_12px_var(--myCustomColor)]">Visit Github</a>
+                            <a href="https://github.com/anaskhan6069" target="_blank" className="inline-block px-7 py-2 bg-myCustomColor rounded-full text-primaryColor font-semibold text-[13px] md:text-lg transition duration-300 shadow-[0_0_6px_var(--myCustomColor)] hover:shadow-[0_0_12px_var(--myCustomColor)]">Visit Github</a>
                         </div>
                     </div>
 
                     {/* Image */}
-                    <div className="flex justify-center md:mt-20 mt-20">
+                    <div className="flex justify-center md:mt-20 mt-24">
                         <div className="aspect-square lg:w-[20rem] w-[18rem] rounded-full bg-[url('/images/Photo.jpg')] bg-cover bg-no-repeat border-4 border-myCustomColor md:shadow-[0_0_22px_var(--myCustomColor)] shadow-[0_0_15px_var(--myCustomColor)]"></div>
                     </div>
                 </div>

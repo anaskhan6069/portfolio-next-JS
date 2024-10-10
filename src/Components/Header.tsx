@@ -47,7 +47,7 @@ const Header = () => {
 
 
             {/* Mobile Menu */}
-            <div className={`lg:hidden bg-secondaryColor text-white fixed w-full z-10 left-0 pt-14 transition-transform duration-300  shadow-[0_6px_10px_rgba(0,0,0,0.2)] 
+            <div className={`lg:hidden bg-secondaryColor text-white fixed w-full z-10 left-0 pt-20 transition-transform duration-300  shadow-[0_6px_10px_rgba(0,0,0,0.2)] 
                 ${menuOpen ? "block" : "hidden"}`}>
                 <ul className="flex flex-col items-center py-4 gap-6">
                     <li>

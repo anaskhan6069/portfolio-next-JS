@@ -3,7 +3,7 @@
 const About = () => {
   return (
     <section id="about" className="bg-secondaryColor flex flex-col lg:flex-row justify-center items-center md:gap-24 gap-20 py-16 lg:px-[115px] md:px-[90px] sm:px-[90px] px-[20px] min-h-screen">
-      <div className="img-div flex justify-center lg:justify-end lg:pt-16">
+      <div className="img-div flex justify-center lg:justify-end lg:pt-16 mt-12">
         <div className="aspect-square lg:w-[20rem] w-[18rem] transform -scale-x-100 rounded-3xl bg-[url('/images/Photo.jpg')] bg-cover bg-no-repeat border-4 border-myCustomColor md:shadow-[0_0_22px_var(--myCustomColor)] shadow-[0_0_15px_var(--myCustomColor)]"></div>
       </div>
 

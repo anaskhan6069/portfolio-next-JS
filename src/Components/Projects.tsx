@@ -8,7 +8,7 @@ import { faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 const Projects = () => {
     return (
         <section id="projects" className="bg-secondaryColor text-white py-16 lg:px-[115px] md:px-[90px] sm:px-[90px] px-[14px] min-h-screen">
-            <h1 className="lg:text-[50px] md:text-[45px] text-[38px] font-bold md:mb-12 mb-8 text-center lg:text-left lg:mt-12">
+            <h1 className="lg:text-[50px] md:text-[45px] text-[38px] font-bold md:mb-12 mb-8 text-center lg:text-left lg:mt-12 mt-5">
                 Latest <span className="text-myCustomColor">Projects</span>
             </h1>
 
