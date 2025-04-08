@@ -15,7 +15,23 @@ const Projects = () => {
             <div className="flex justify-center items-center flex-wrap md:gap-6 gap-8">
                 {/* Project Box 1 */}
                 <div className="relative md:w-[350px] md:h-[300px] w-[350px] h-[280px] rounded-2xl overflow-hidden shadow-[0_0_8px_rgba(0,0,33,0.8)] group">
-                    <Image src="/images/figma-clone.jpg" alt="Figma Clone" className="w-full h-full object-cover opacity-90 transition-transform duration-500 ease-in-out group-hover:scale-110 group-hover:opacity-70" width={350} height={300}
+                    <Image src="/images/ecommerce.jpg" alt="Figma Clone" className="w-full h-full object-cover opacity-95 transition-transform duration-500 ease-in-out group-hover:scale-110 group-hover:opacity-70" width={350} height={300}
+                    />
+                    <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-myCustomColor z-10 flex flex-col justify-center items-center text-center p-4 transform translate-y-full transition-transform duration-500 ease-in-out group-hover:translate-y-0 ">
+                        <h4 className="md:md:text-3xl text-2xl font-bold">E-Commerce Web</h4>
+                        <p className="text-base my-4">
+                        Built an e-commerce site inspired by Figma with dynamic routing, smooth animations, and responsive design for a clean user experience.
+                        </p>
+                        <a href="https://ecommerce-hackathon-anas.vercel.app/" target="_blank" className="md:w-12 md:h-12 w-10 h-10 bg-white rounded-full flex justify-center items-center">
+                            <FontAwesomeIcon icon={faUpRightFromSquare} className='text-secondaryColor md:md:text-xl text-base py-4'/>
+                        </a>
+                    </div>
+                </div>
+
+
+                {/* Project Box 2 */}
+                <div className="relative md:w-[350px] md:h-[300px] w-[350px] h-[280px] rounded-2xl overflow-hidden shadow-[0_0_8px_rgba(0,0,33,0.8)] group">
+                    <Image src="/images/figma-clone.jpg" alt="Figma Clone" className="w-full h-full object-cover opacity-95 transition-transform duration-500 ease-in-out group-hover:scale-110 group-hover:opacity-70" width={350} height={300}
                     />
                     <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-myCustomColor z-10 flex flex-col justify-center items-center text-center p-4 transform translate-y-full transition-transform duration-500 ease-in-out group-hover:translate-y-0 ">
                         <h4 className="md:md:text-3xl text-2xl font-bold">Figma Clone - Tere Web</h4>
@@ -28,10 +44,9 @@ const Projects = () => {
                     </div>
                 </div>
 
-
-                {/* Project Box 2 */}
+                {/* Project Box 3 */}
                 <div className="relative md:w-[350px] md:h-[300px] w-[350px] h-[280px] rounded-2xl overflow-hidden shadow-[0_0_8px_rgba(0,0,33,0.8)] group">
-                    <Image src="/images/image-gallery.jpg" alt="Figma Clone" className="w-full h-full object-cover opacity-90 transition-transform duration-500 ease-in-out group-hover:scale-110 group-hover:opacity-70" width={350} height={300}
+                    <Image src="/images/image-gallery.jpg" alt="Figma Clone" className="w-full h-full object-cover opacity-95 transition-transform duration-500 ease-in-out group-hover:scale-110 group-hover:opacity-70" width={350} height={300}
                     />
                     <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-myCustomColor z-10 flex flex-col justify-center items-center text-center p-4 transform translate-y-full transition-transform duration-500 ease-in-out group-hover:translate-y-0">
                         <h4 className="md:text-3xl text-2xl font-bold">Image Gallery</h4>
@@ -44,24 +59,9 @@ const Projects = () => {
                     </div>
                 </div>
 
-                {/* Project Box 3 */}
-                <div className="relative md:w-[350px] md:h-[300px] w-[350px] h-[280px] rounded-2xl overflow-hidden shadow-[0_0_8px_rgba(0,0,33,0.8)] group">
-                    <Image src="/images/todo-list.jpg" alt="Figma Clone" className="w-full h-full object-cover opacity-90 transition-transform duration-500 ease-in-out group-hover:scale-110 group-hover:opacity-70" width={350} height={300}
-                    />
-                    <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-myCustomColor z-10 flex flex-col justify-center items-center text-center p-4 transform translate-y-full transition-transform duration-500 ease-in-out group-hover:translate-y-0">
-                        <h4 className="md:text-3xl text-2xl font-bold">Todo List</h4>
-                        <p className="text-base my-4">
-                        Developed a beautifully designed To-Do List app using Next.js, featuring task addition, deletion, and completion—all fully responsive!
-                        </p>
-                        <a href="https://todolist-anaskhan.vercel.app/" target="_blank" className="md:w-12 md:h-12 w-10 h-10 bg-white rounded-full flex justify-center items-center">
-                            <FontAwesomeIcon icon={faUpRightFromSquare} className='text-secondaryColor md:text-xl text-base py-4'/>
-                        </a>
-                    </div>
-                </div>
-
                 {/* Project Box 4 */}
                 <div className="relative md:w-[350px] md:h-[300px] w-[350px] h-[280px] rounded-2xl overflow-hidden shadow-[0_0_8px_rgba(0,0,33,0.8)] group">
-                    <Image src="/images/quote-generator.jpg" alt="Figma Clone" className="w-full h-full object-cover opacity-90 transition-transform duration-500 ease-in-out group-hover:scale-110 group-hover:opacity-70" width={350} height={300}
+                    <Image src="/images/quote-generator.jpg" alt="Figma Clone" className="w-full h-full object-cover opacity-95 transition-transform duration-500 ease-in-out group-hover:scale-110 group-hover:opacity-70" width={350} height={300}
                     />
                     <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-myCustomColor z-10 flex flex-col justify-center items-center text-center p-4 transform translate-y-full transition-transform duration-500 ease-in-out group-hover:translate-y-0">
                         <h4 className="md:text-3xl text-2xl font-bold">Quote Generator</h4>
@@ -76,7 +76,7 @@ const Projects = () => {
 
                 {/* Project Box 5 */}
                 <div className="relative md:w-[350px] md:h-[300px] w-[350px] h-[280px] rounded-2xl overflow-hidden shadow-[0_0_8px_rgba(0,0,33,0.8)] group">
-                    <Image src="/images/cards-routing.jpg" alt="Figma Clone" className="w-full h-full object-cover opacity-90 transition-transform duration-500 ease-in-out group-hover:scale-110 group-hover:opacity-70" width={350} height={300}
+                    <Image src="/images/cards-routing.jpg" alt="Figma Clone" className="w-full h-full object-cover opacity-95 transition-transform duration-500 ease-in-out group-hover:scale-110 group-hover:opacity-70" width={350} height={300}
                     />
                     <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-myCustomColor z-10 flex flex-col justify-center items-center text-center p-4 transform translate-y-full transition-transform duration-500 ease-in-out group-hover:translate-y-0">
                         <h4 className="md:text-3xl text-2xl font-bold">Cards Routing - Next.js</h4>
@@ -91,14 +91,14 @@ const Projects = () => {
 
                 {/* Project Box 6 */}
                 <div className="relative md:w-[350px] md:h-[300px] w-[350px] h-[280px] rounded-2xl overflow-hidden shadow-[0_0_8px_rgba(0,0,33,0.8)] group">
-                    <Image src="/images/calc.jpg" alt="Figma Clone" className="w-full h-full object-cover opacity-90 transition-transform duration-500 ease-in-out group-hover:scale-110 group-hover:opacity-70" width={350} height={300}
+                    <Image src="/images/todo-list.jpg" alt="Figma Clone" className="w-full h-full object-cover opacity-95 transition-transform duration-500 ease-in-out group-hover:scale-110 group-hover:opacity-70" width={350} height={300}
                     />
                     <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-myCustomColor z-10 flex flex-col justify-center items-center text-center p-4 transform translate-y-full transition-transform duration-500 ease-in-out group-hover:translate-y-0">
-                        <h4 className="md:text-3xl text-2xl font-bold">Calculator</h4>
+                        <h4 className="md:text-3xl text-2xl font-bold">Todo List</h4>
                         <p className="text-base my-4">
-                        Thrilled to present my basic calculator crafted with HTML, CSS, and JavaScript! Perform essential arithmetic operations effortlessly with its simple yet functional design, ideal for beginners in web development.
+                        Developed a beautifully designed To-Do List app using Next.js, featuring task addition, deletion, and completion—all fully responsive!
                         </p>
-                        <a href="https://anaskhan6069.github.io/Web-Based-Calculator/" target="_blank" className="md:w-12 md:h-12 w-10 h-10 bg-white rounded-full flex justify-center items-center">
+                        <a href="https://todolist-anaskhan.vercel.app/" target="_blank" className="md:w-12 md:h-12 w-10 h-10 bg-white rounded-full flex justify-center items-center">
                             <FontAwesomeIcon icon={faUpRightFromSquare} className='text-secondaryColor md:text-xl text-base py-4'/>
                         </a>
                     </div>
